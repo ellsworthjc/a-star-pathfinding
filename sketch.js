@@ -10,6 +10,7 @@ let w,h;
 let path = [];
 
 function setup() {
+	frameRate(24);
 	createCanvas(500, 500);
 	console.log('A*');
 
