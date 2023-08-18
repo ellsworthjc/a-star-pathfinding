@@ -6,8 +6,15 @@ let openSet = [];
 let closedSet = [];
 let start;
 let end;
-let w,h;
+let w, h;
 let path = [];
+
+// const gridSize = document.querySelector("#grid-size");
+// console.log(gridSize.value);
+
+// gridSize.addEventListener("change", () => {
+// 	loop();
+// });
 
 function setup() {
 	frameRate(24);
