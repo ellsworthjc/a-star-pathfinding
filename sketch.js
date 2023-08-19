@@ -12,9 +12,10 @@ let path = [];
 // const gridSize = document.querySelector("#grid-size");
 // console.log(gridSize.value);
 
-// gridSize.addEventListener("change", () => {
-// 	loop();
-// });
+const newPath = document.querySelector("#new-path");
+newPath.addEventListener("click", () => {
+	window.location.reload();
+});
 
 function setup() {
 	frameRate(24);
@@ -54,6 +55,10 @@ function setup() {
 };
 
 function draw() {
+	aStar();
+};
+
+function aStar() {
 	// the A* algorithm
 	if (openSet.length > 0) {
 		// keep going

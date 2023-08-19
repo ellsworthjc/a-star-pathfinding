@@ -2,7 +2,7 @@
 	font-family: sans-serif;
 }
 
-body {
-	margin: 1%;
-	padding: 0;
+canvas {
+	display: block;
+	margin-top: 2rem;
 }
