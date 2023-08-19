@@ -15,6 +15,7 @@ let path = [];
 const newPath = document.querySelector("#new-path");
 newPath.addEventListener("click", () => {
 	window.location.reload();
+	// noLoop();
 });
 
 function setup() {
