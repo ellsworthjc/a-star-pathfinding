@@ -197,8 +197,8 @@ function Spot(i,j) {
 			fill(0);
 		}
 		noStroke();
-		// rect(this.i * w, this.j * h, w - 1, h - 1);
-		circle(this.i * w + w / 2, this.j * h + h / 2, w * 1);
+		rect(this.i * w, this.j * h, w - 1, h - 1);
+		// circle(this.i * w + w / 2, this.j * h + h / 2, w * 1);
 	};
 
 	this.addNeighbors = (grid) => {

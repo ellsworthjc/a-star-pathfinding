@@ -6,3 +6,19 @@ canvas {
 	display: block;
 	margin-top: 2rem;
 }
+
+button {
+	all: unset;
+	padding: 1rem 2rem;
+	border: 3px solid black;
+	border-radius: 0.3rem;
+	color: black;
+	transition: all 350ms;
+	cursor: pointer;
+}
+
+button:hover,
+button:focus {
+	background-color: black;
+	color: white;
+}
