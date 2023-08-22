@@ -233,7 +233,9 @@ function Spot(i,j) {
 	// optimization: could do a better job of comparing diagonal vs. just left/right/up/down
 	// a.k.a. diagonals are sqrt(2) times longer
 	this.setH = (end) => {
+		// euclidean distance
 		let d = dist(this.i, this.j, end.i, end.j)
+		// distance
 		// let d = abs(this.i - end.i) + abs(this.j - end.j);
 		this.h = d;
 	};
