@@ -235,7 +235,6 @@ function Spot(i,j) {
 	this.setH = (end) => {
 		// euclidean distance
 		let d = dist(this.i, this.j, end.i, end.j)
-		// distance
 		// let d = abs(this.i - end.i) + abs(this.j - end.j);
 		this.h = d;
 	};
