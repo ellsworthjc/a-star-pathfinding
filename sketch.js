@@ -59,6 +59,23 @@ function draw() {
 	aStar();
 };
 
+
+/**
+ * The goal here is to list all of the necessary inputs so that we can start breaking
+ * the algorithm down into smaller pieces.
+ *
+ * @param {Array} grid - width x height nested array holding all spots
+ * @param {Array} openSet - an array containing spots yet to be compared
+ * @param {Array} closedSet - an array containing spots that have been compared
+ * @param {Spot} end - the spot that is set as the final destination
+ * @param {Array} path - an array of the spots deemed as the optimal path so far
+ * @param {number} rows - the number of rows in the grid
+ * @param {number} cols - the number of columns in the grid
+ * @param {number} w - canvas width
+ * @param {number} h - canvas height
+ *
+ * @returns {null}
+ */
 function aStar() {
 	// the A* algorithm
 	if (openSet.length > 0) {
