@@ -10,7 +10,7 @@ let w, h;
 let path = [];
 
 // const gridSize = document.querySelector("#grid-size");
-console.log(gridSize.value);
+// console.log(gridSize.value);
 
 const newPath = document.querySelector("#new-path");
 newPath.addEventListener("click", () => {
