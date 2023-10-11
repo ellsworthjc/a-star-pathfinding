@@ -1,5 +1,7 @@
-let cols = 30;
-let rows = 30;
+const size = 30;
+
+let cols = size;
+let rows = size;
 let grid = new Array(cols);
 
 let openSet = [];
